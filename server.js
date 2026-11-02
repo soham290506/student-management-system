@@ -122,6 +122,6 @@ app.delete("/api/students/:id", (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
     console.log(`Student Management System running at http://localhost:${PORT}`);
 });
